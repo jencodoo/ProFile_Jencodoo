@@ -2,12 +2,116 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project 3 - Blog Platform</title>
+  <title>Coffee Designer Website</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #6f4e37;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    hr {
+      margin: 20px 0;
+      border: 0;
+      border-top: 1px solid #ddd;
+    }
+
+    .project-info {
+      margin-top: 20px;
+      font-size: 1.1rem;
+    }
+
+    .project-info strong {
+      color: #6f4e37;
+    }
+
+    a {
+      color: #d2691e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #6f4e37;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
 </head>
 <body>
-  <h1>Project 3: Blog Platform</h1>
-  <p>This is a blog platform built with Vue.js that allows users to create, edit, and share blog posts.</p>
-  <a href="index.html">Back to Profile</a>
+
+  <header>
+    <h1>Coffee Designer</h1>
+    <p>Customize your perfect cup of coffee with a rich and interactive design experience.</p>
+  </header>
+
+  <div class="content">
+    <a href="index.html">&larr; Back to Profile</a>
+
+    <hr>
+
+    <h2>Coffee Designer</h2>
+    <div class="project-info">
+      <p><strong>Technology Used:</strong> HTML, CSS, JavaScript</p>
+      <p><strong>Description:</strong></p>
+      <p>
+        Coffee Designer is a creative web app that allows users to personalize and design their favorite coffee drinks. From selecting beans to cup size, the experience is fully customizable and visually rich.
+      </p>
+      <h3>Key Features:</h3>
+      <ul>
+        <li><strong>Interactive UI:</strong> Drag-and-drop elements for customizing drinks.</li>
+        <li><strong>Real-Time Preview:</strong> Visual representation of the custom coffee as users build it.</li>
+        <li><strong>Responsive Design:</strong> Fully functional on both desktop and mobile.</li>
+        <li><strong>Stylish Theme:</strong> Earthy tones and elegant coffee-related visuals.</li>
+      </ul>
+      <p><strong>Github:</strong> <a href="https://github.com/jencodoo/coffee-designer" target="_blank">View Repository</a></p>
+      <p><strong>Live Demo:</strong> <a href="https://coffee-designer-jencodoo.vercel.app/" target="_blank">Try it Live</a></p>
+    </div>
+  </div>
+
+  <footer class="footer mt-4 py-3 text-white">
+    <div class="container text-center">
+      <p>&copy; 2025 Jencodoo. All Rights Reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
